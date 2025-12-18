@@ -27,7 +27,7 @@ const Header = (prop) => {
   const [search, setSearch] = useState('');
 
   const searchRef = createRef();
-  const bannerMessage = '';
+  
   const searchSuggestions = [
     'Oversize sweaters',
     'Lama Pajamas',
@@ -77,7 +77,7 @@ const Header = (prop) => {
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [showSearch]);
-
+const bannerMessage = 'Envíos gratis a todo el mundo';
   return (
     <div className={styles.root}>
       <div className={styles.headerMessageContainer}>
