@@ -1,12 +1,22 @@
 .root {
-    display: flex;
-    justify-content: center;
-    cursor: pointer;
+  cursor: pointer;
+  font-family: Century, "Century Schoolbook", serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #000000;
+  text-align: center;
+  padding: 10px 0;
+  
+  /* ESTILO PARA ORDENADOR (Pantalla grande) */
+  font-size: 22px;
+  letter-spacing: 2px;
 }
 
+/* ESTILO PARA MÓVIL (Pantallas de menos de 800px) */
 @media (max-width: 800px) {
-    .root svg {
-        width: 90px;
-        height: 16.67px;
-    }
+  .root {
+    font-size: 16px;      /* Letra más pequeña */
+    letter-spacing: 1px;  /* Menos espacio para que quepa bien */
+    padding: 5px 0;       /* Menos aire arriba y abajo */
+  }
 }
