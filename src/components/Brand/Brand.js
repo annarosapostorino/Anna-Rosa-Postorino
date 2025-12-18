@@ -18,7 +18,7 @@ const Brand = () => {
         padding: '10px 0'
       }}
     >
-      ANNA ROSA POSTORINO
+      POSTORINO
     </div>
   );
 };
