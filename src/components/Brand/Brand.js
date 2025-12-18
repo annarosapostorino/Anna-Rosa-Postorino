@@ -7,18 +7,20 @@ const Brand = () => {
       role="presentation"
       onClick={() => navigate('/')}
       style={{
-        cursor: 'pointer',            // Hace que salga la manita al pasar el ratón
-        fontFamily: 'sans-serif',     // Tipografía moderna y limpia
-        fontSize: '18px',             // Tamaño ideal para cabeceras
-        fontWeight: '600',            // Un poco de grosor para que se lea bien
-        letterSpacing: '2px',         // Espacio entre letras (el toque elegante)
-        textTransform: 'uppercase',   // Pone todo en mayúsculas automáticamente
-        color: '#000000',             // Color negro
-        textAlign: 'center',          // Centrado
-        padding: '10px 0'             // Un poco de aire arriba y abajo
+        cursor: 'pointer',
+        fontFamily: 'sans-serif',
+        fontSize: '18px',
+        fontWeight: '600',
+        letterSpacing: '2px',
+        textTransform: 'uppercase',
+        color: '#000000',
+        textAlign: 'center',
+        padding: '10px 0'
       }}
     >
       ANNA ROSA POSTORINO
     </div>
   );
 };
+
+export default Brand;
